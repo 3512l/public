@@ -1,10 +1,10 @@
 <script>
     //Here you can add your own picture for snow. Just change the url
-    var snowsrc=" http://i1208.photobucket.com/albums/cc361/Letthalicious/pinkysnowrssletthagilaa.png"
+    var snowsrc="https://www.freeiconspng.com/thumbs/fire-png/fire-png-image--fire-png-image-9.png" 
     //how many snowflakes there will be (currently 12)
-    var no =47;
+    var no =10000;
     //How fast will the snow disappear (0 is never)
-    var hidesnowtime = 0;
+    var hidesnowtime = 30;
     //The height the snow will reach before it disappears ("windowheight" or "pageheight")
     var snowdistance = "pageheight";
     ///////////////////////////////End of Settings///////////////////////////////////
@@ -16,7 +16,7 @@
     }
     var dx, xp, yp;
     var am, stx, sty;
-    var i, doc_width = 800, doc_height = 600;
+    var i, doc_width = 200, doc_height = 100;
     if (ns6up)
     {
     doc_width = self.innerWidth;
@@ -84,7 +84,7 @@
     {
     snowIE_NS6();
     if (hidesnowtime>0)
-    setTimeout("hidesnow()", hidesnowtime*1000)
+    setTimeout("hidesnow()", hidesnowtime*3000)
     }
     </script>
 <!DOCTYPE html>
@@ -99,5 +99,6 @@
     <h2>Rawiphon ไชยภักดี</h2>
     <h1>เรียนเก่งมาก</h1>
     <img src="d90.jpg">
+    <img src="landscape-1497533116-not-dead.gif" width="1200" height="600">
 </body>
 </html>
